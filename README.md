@@ -12,5 +12,5 @@ Run this command into your nova project:
 ```php
 use R64\NovaDniField\Dni;
 
-Dni::make('vat'),
+Dni::make('dni'),
 ```
