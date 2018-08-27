@@ -22,7 +22,7 @@ class FieldServiceProvider extends ServiceProvider
         });
 
         Validator::extend('dni', function ($attribute, $value, $parameters, $validator) {
-            if (!value) {
+            if (!$value) {
                 return true;
             }
             return ValidateDni::check_dni($value);
