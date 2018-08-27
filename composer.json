@@ -1,6 +1,6 @@
 {
   "name": "r64/nova-dni-field",
-  "description": "Spanish Dni field",
+  "description": "Spanish DNI / NIF / CIF Field for Laravel Nova",
   "keywords": [
     "laravel",
     "nova"
